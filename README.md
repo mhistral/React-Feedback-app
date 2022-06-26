@@ -7,6 +7,10 @@ run:
 ### `npm i framer-motion@4.1.17`  
 
 ### `npm install react-router-dom@6.0.1`
+
+### `npm run build`
+
+### `npm i -g serve`
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
