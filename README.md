@@ -10,6 +10,8 @@ run:
 
 ### `npm run build`
 
+### `serve -s build`
+
 ### `npm i -g serve`
 
 ### `npm i json-server`
