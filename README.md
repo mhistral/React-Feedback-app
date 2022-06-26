@@ -11,10 +11,19 @@ run:
 ### `npm run build`
 
 ### `npm i -g serve`
+
+### `npm i json-server`
+## npm run start to start json-server
+
+### `npm i concurrently`
+
+### `npm run dev`
+## to run both json-server and server
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## URL https://react-feedback-app-neon.vercel.app/
 ## Available Scripts
 
 In the project directory, you can run:
