@@ -25,34 +25,32 @@ function App() {
 	};
 
 	return (
-      <FeedbackProvider>
-         <Router>
-            <Header />
-            <div className="container">
-               <Routes>
-                  <Route
-                     exact
-                     path="/"
-                     element={
-                        <>
-                           <FeedbackForm handleAdd={addFeedback} />
-                           <FeedbackStats feedback={feedback} />
-                           <FeedbackList
-                              feedback={feedback}
-                              handleDelete={deleteFeedback}
-                           />
-                        </>
-                     }
-                  ></Route>
+		<FeedbackProvider>
+			<Router>
+				<Header />
+				<div className="container">
+					<Routes>
+						<Route
+							exact
+							path="/"
+							element={
+								<>
+									<FeedbackForm handleAdd={addFeedback} />
+									<FeedbackStats feedback={feedback} />
+									<FeedbackList
+										feedback={feedback}
+										handleDelete={deleteFeedback}
+									/>
+								</>
+							}
+						></Route>
 
-                  <Route path="/About" element={<AboutPage />} />
-               </Routes>
-               <AboutIconLink/>
-
-            </div>
-         </Router>
-      </FeedbackProvider>
-
+						<Route path="/About" element={<AboutPage />} />
+					</Routes>
+					<AboutIconLink />
+				</div>
+			</Router>
+		</FeedbackProvider>
 	);
 }
 
